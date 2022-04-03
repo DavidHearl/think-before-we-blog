@@ -1,4 +1,4 @@
-# Terminal Commands
+# Terminal Commands & Deployment
 
 - pip3 install django gunicorn
 - pip3 install dj_database_url psycopg2
@@ -9,23 +9,18 @@
 - python3 manage.py migrate (after "blog" was added to installed apps in settings.py)
 - python3 manage.py 
 - *** after deployment steps ***
-- python3 manage.py migrate
-- *** to check go to heroku > resources > heroku postgres (data is then displayed) ***
-- git add .
-- git commit -m 
-- git push
-
-# Deployment
-
 - create new app on heroku
 - recources > heroku postgres > settings > config vars > DATABASE_URL > copy
 - create new file, env.py
 - add DATABASE_URL
 - add SECRET_KEY
-
-- Git add
-
-
+- *** finsihed deployment steps ***
+- python3 manage.py migrate
+- *** to check go to heroku > resources > heroku postgres (data is then displayed) ***
+- git add .
+- git commit -m 
+- git push
+- Deployment FAILED!...
 
 
 # Design Thinking
