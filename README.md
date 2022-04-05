@@ -7,7 +7,7 @@
 - django-admin startproject codestar .
 - python3 manage.py startapp blog
 - python3 manage.py migrate (after "blog" was added to installed apps in settings.py)
-- python3 manage.py 
+- python3 manage.py
 - *** after deployment steps ***
 - create new app on heroku
 - recources > heroku postgres > settings > config vars > DATABASE_URL > copy
@@ -20,8 +20,11 @@
 - git add .
 - git commit -m 
 - git push
-- Deployment FAILED!...
 
+# Migrate changes
+
+- python3 manage.py makemigrations
+- python3 manage.py migrate
 
 # Design Thinking
 
@@ -35,3 +38,9 @@
 - Manage posts: As a Site Admin I can create, read, update and delete posts so that I can manage my blog content
 - Create drafts: As a Site Admin I can create draft posts so that I can finish writing the content later
 - Approve comments: As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments
+
+# Database Models
+
+- Move user stories into In progress
+- Entity Relationship Diagram [Key, Name, Type]
+
