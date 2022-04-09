@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['think-before-we-blog.herokuapp.com', 'localhost']
-CSRF_TRUSTED_ORIGINS = ['https://8000-davidhearl-thinkbeforewe-uhh98wqhso0.ws-eu38.gitpod.io','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://8000-davidhearl-thinkbeforewe-uhh98wqhso0.ws-eu39.gitpod.io','https://*.127.0.0.1']
 
 # Application definition
 
