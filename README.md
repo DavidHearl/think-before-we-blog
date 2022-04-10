@@ -26,6 +26,10 @@
 - python3 manage.py makemigrations
 - python3 manage.py migrate
 
+# Copy files to modify templates
+
+- cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates* ./templates
+
 # Design Thinking
 
 - View post list: As a Site User I can view a list of posts so that I can select one to read
